@@ -1,0 +1,184 @@
+datasource db {
+    provider = "postgresql"
+    url      = "postgres://clicnwork:AEnmarNd&YjXPVlb2DKZD!@51.159.8.33:8982/clicnwork"
+}
+
+generator client {
+    provider = "prisma-client-js"
+}
+
+model Recrutement {
+    uid                      String   @id @unique
+    status                   String
+    primaryJob               String
+    primarySkills            String
+    startDate                DateTime
+    endDate                  DateTime
+    yearsExperience          Int
+    geographicAddress        String
+    rate                     Float
+    rateCode                 String
+    contractType             String
+    educationLevel           String
+    workingMonth             Int
+    isActiveProposition      Boolean  @default(false)
+    isVehiculed              Boolean  @default(false)
+    isMobility               Boolean  @default(false)
+    mobilityBonus            Float
+    isMonth13th              Boolean  @default(false)
+    jobUrl                   String
+    uidRecruiter             String
+    uidClient                String
+    uidClientContact         String
+    employementSlot          Int
+    companyDescription       String
+    jobSpecification         String
+    jobResponsability        String
+    jobProfile               String
+    jobMisc                  String
+    reasonClosingRecruitment String
+    modifiedDate             DateTime
+    createdDate              DateTime
+    uidCreator               String
+    uidAgency                String
+    uidMainAgency            String
+}
+
+model ActiveProposition {
+    uid                   String   @id @unique
+    uidAgency             String
+    uidMainAgency         String
+    isClosed              Boolean  @default(false)
+    luidCandidate         String[]
+    luidClientContact     String[]
+    luidClientProposition String[]
+    messageContent        String
+    modifiedDate          DateTime
+    createdDate           DateTime
+    uidCreator            String
+}
+
+model Client {
+    uid                    String   @id @unique
+    uidAgency              String
+    uidMainAgency          String
+    uidAgreement           String
+    geographicAddress      String
+    addressCity            String
+    luidClientActivityArea String[]
+    nafCode                String
+    textDescription        String
+    uidManager             String
+    lastClientStatus       String
+    linkedin_url           String
+    companyName            String
+    averageEtp             String
+    openJobs               String
+    isAgreement            String
+    activityArea           String
+    siretIdentifier        String
+    webSite                String
+    clientStatus           String
+    phone                  String
+    recruitmentInProgress  String[]
+    isCreditInsurance      Boolean  @default(false)
+    workforceCompany       String
+    jobSearch              String[]
+    luidClientConcurrent   String[]
+    luidClientContact      String[]
+    uidActiveProposition   String
+    modifiedDate           DateTime
+    createdDate            DateTime
+    uidCreator             String
+}
+
+model ClientExchange {
+    uid              String   @id @unique
+    uidAgency        String
+    uidMainAgency    String
+    uidCandidate     String
+    uidClient        String
+    uidClientContact String[] @default([])
+    content          String
+    osExchangeType   String
+    uidEvents        String
+    osUserType       String
+    osNoteType       String
+    uidManager       String
+    uidCreator       String
+    modifiedDate     DateTime
+    createdDate      DateTime
+}
+
+
+model Candidate {
+    uid                          String   @id @unique
+    geoAddress                   String
+    addressCity                  String
+    addressCountry               String
+    addressStreet                String
+    uidAgency                    String
+    uidMainAgency                String
+    uidSecondayAgency            String[]
+    knowledgeRate                Int
+    uidCdtData                   String
+    callBackDate                 DateTime
+    birthDay                     DateTime
+    dateToQualified              DateTime
+    dateAskUpdate                DateTime
+    lastSmsDate                  DateTime
+    unsubscribeDate              DateTime
+    availabilityDate             DateTime
+    availabilityUpdateDate       DateTime
+    availabilityInformationDate  DateTime
+    drivingLicence               Boolean
+    uidCdtExchange               String
+    yearsExperience              Int
+    userMainRecruiter            String
+    luserSecondaryRecruiter      String[]
+    isMobility                   Boolean
+    uidCdtApplication            String[]
+    uidCdtSkills                 String[]
+    uidCdtComputerSkills         String[]
+    uidCdtProfesionalExperiences String[]
+    uidCdtEducation              String[]
+    hobbies                      String[]
+    uidCdtLangage                String[]
+    primaryJobLabel              String
+    primaryJobId                 String
+    secondaryJobLabels           String[]
+    secondaryJobIds              String[]
+    desiredJobLabel              String
+    otherSkills                  String[]
+    uidCdtSoftSkills             String[]
+    registrationNumber           Int
+    fisrtName                    String
+    lastName                     String
+    hasPersonalVehicle           Boolean
+    mobilePhone                  String
+    osStatus                     String
+    yearlyRate                   String
+    hourlyRate                   String
+    monthlyRate                  String
+    osProfileType                String
+    desiredGeoAddress            String
+    uidCreator                   String
+    modifiedDate                 DateTime
+    createdDate                  DateTime
+}
+
+model MainAgency {
+    uid          String   @id @unique
+    uidAgency    String
+    name         String
+    address      String
+    phone        String
+    email        String
+    webSite      String
+    dataOptions  Boolean
+    bddLink      String  
+    modifiedDate DateTime
+    createdDate  DateTime
+    uidCreator   String
+
+}

@@ -1,0 +1,112 @@
+{
+    "recrutement": {
+        "status": "En cours",
+        "primaryJob": "boulanger",
+        "primarySkills": "entretenir du matériel de découpe, proposer des formations sur la supervision de la gestion de la qualité",
+        "startDate": "2023-11-23",
+        "endDate": "2023-11-29",
+        "yearsExperience": "7",
+        "geographicAddress": "Nantes, France",
+        "rate": "18.00",
+        "rateCode": "HOUR",
+        "contractType": "CDD",
+        "educationLevel": "",
+        "workingMonth": "1",
+        "isActiveProposition": "false",
+        "isVehiculed": "false",
+        "isMobility": "false",
+        "mobilityBonus": "0.00",
+        "isMonth13th": "false",
+        "jobUrl": "",
+        "uidRecruiter": "1679403770047x879478364451034500",
+        "uidClient": "1679464459229x921051342882043600",
+        "uidClientContact": "",
+        "employementSlot": "1",
+        "companyDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "jobSpecification": "TEST",
+        "jobResponsability": "TEST",
+        "jobProfile": "TEST",
+        "jobMisc": "TEST",
+        "reasonClosingRecruitment": "",
+        "modifiedDate": "2023-11-23",
+        "createdDate": "2023-11-23",
+        "uidCreator": "1679403770047x879478364451034500",
+        "uid": "1700749619773x583780590968111100",
+        "uidAgency": "1679390147289x659783668851802100",
+        "uidMainAgency": "1679390120834x736367601047306200"
+    },
+    "activeProposition": {
+        "uid": "1700560622450x176503683782017020",
+        "uidAgency": "1673882995073x190695676603269120",
+        "uidMainAgency": "1637157876569x807717355034275300",
+        "isClosed": "false",
+        "luidCandidate": [
+            "1696946806567x739419746796659200"
+        ],
+        "luidClientContact": [
+            "1696600450853x223904602478870530"
+        ],
+        "luidClientProposition": [
+            "1700560623502x338869074017770900"
+        ],
+        "messageContent": "Bonjour,<br><br>Nous vous proposons une s&#233;lection de candidats qualifi&#233;s et exp&#233;riment&#233;s qui pourraient r&#233;pondre &#224; vos besoins en mati&#232;re de recrutement. Nous avons soigneusement s&#233;lectionn&#233; ces profils en fonction de leur expertise et de leur exp&#233;rience professionnelle afin de garantir qu&#39;ils puissent apporter une valeur ajout&#233;e &#224; votre entreprise.<br><br>Voici les profils que nous vous proposons :<br>.  ., electricien<br><br>Nous sommes &#224; votre disposition pour vous fournir des informations suppl&#233;mentaires sur ces profils et r&#233;pondre &#224; vos questions. Nous pouvons &#233;galement organiser des entretiens avec les candidats pour vous aider &#224; prendre une d&#233;cision &#233;clair&#233;e.<br><br>Cordialement,<br><br> <br><br>dev - Miami<br><br><br>",
+        "modifiedDate": "2023-11-21",
+        "createdDate": "2023-11-21",
+        "uidCreator": "1691653069710x520256284205586700"
+    },
+    "client": {
+        "uid": "1699722370029x304975191231692800",
+        "uidAgency": "1673882995073x190695676603269120",
+        "uidMainAgency": "1637157876569x807717355034275300",
+        "uidAgreement": "",
+        "geographicAddress": "111 Quai du Président Roosevelt, 92130 Issy-les-Moulineaux, France",
+        "addressCity": "",
+        "luidClientActivityArea": [],
+        "nafCode": "",
+        "textDescription": "",
+        "uidManager": "1663259639881x787378527449504400",
+        "lastClientStatus": "Client actif",
+        "linkedin_url": "",
+        "companyName": "ORANGE",
+        "averageEtp": "",
+        "openJobs": "0",
+        "isAgreement": "Non",
+        "activityArea": "Télécommunications filaires",
+        "siretIdentifier": "38012986648625",
+        "webSite": "",
+        "clientStatus": "Client actif",
+        "phone": "+33928193013",
+        "recruitmentInProgress": [],
+        "isCreditInsurance": "false",
+        "workforceCompany": "",
+        "jobSearch": [],
+        "luidClientConcurrent": [
+            "1699720902376x247778807269548160",
+            "1699720902372x160698153794910140"
+        ],
+        "luidClientContact": [],
+        "uidActiveProposition": "",
+        "modifiedDate": "2023-11-11",
+        "createdDate": "2023-11-11",
+        "uidCreator": "1691653069710x520256284205586700"
+    },
+    "clientExchange": {
+        "uid": "1700564743434x844661458939774900",
+        "uidAgency": "1673882995073x190695676603269120",
+        "uidMainAgency": "1637157876569x807717355034275300",
+        "uidCandidate": "",
+        "uidClient": "1684847650677x735063906206089200",
+        "uidClientContact": [
+            "1684847650677x248477691723907070"
+        ],
+        "content": "Modification d’une action commerciale associée au contact Y. Dofus de la colonne  A prospecter vers la colonne A prospecter",
+        "osExchangeType": "Contact",
+        "uidEvents": "",
+        "osUserType": "",
+        "osNoteType": "",
+        "uidManager": "",
+        "uidCreator": "1663259639881x787378527449504400",
+        "modifiedDate": "2023/11/21",
+        "createdDate": "2023/11/21"
+    }
+}
